@@ -17,8 +17,13 @@ So I write this app, provide a simple, modern and open-source alternative.
 
 # how to use CLI and some tips
 * executable.exe dispositivi -show you a list of devices that are already paired and can be used for a2dp audio
+<br>
 The output will be something like: devicename@id
+<br>
  executable dispositivi connetti "id" -will start the app and automaticaly connect to the device id you have specified
+<br>
 to disconnect just simply explode(close it, but saying explode is much better) the process
+<br>
 for my specific scenario i had to be able to pair devices easily so i add this reg key to obligate windows to be always visible :
+<br>
 reg add "HKLM\SYSTEM\CurrentControlSet\Services\Bthport\Parameters" /v DiscoverableMode /t REG_DWORD /d 2 /f
