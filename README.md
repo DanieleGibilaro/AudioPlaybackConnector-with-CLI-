@@ -16,11 +16,11 @@ So I write this app, provide a simple, modern and open-source alternative.
 * Enjoy!
 
 # how to use CLI and some tips
-* executable.exe dispositivi -show you a list of devices that are already paired and can be used for a2dp audio
+* app.exe dispositivi -show you a list of devices that are already paired and can be used for a2dp audio
 <br>\
 The output will be something like: devicename@id
 <br>\
-* executable dispositivi connetti "id" -will start the app and automaticaly connect to the device id you have specified
+* app.exe dispositivi connetti "id" -will start the app and automaticaly connect to the device id you have specified
 <br>\
 * to disconnect just simply explode(close it, but saying explode is much better) the process
 <br>\
