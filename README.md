@@ -20,9 +20,9 @@ So I write this app, provide a simple, modern and open-source alternative.
 <br>\
 The output will be something like: devicename@id
 <br>\
-*executable dispositivi connetti "id" -will start the app and automaticaly connect to the device id you have specified
+* executable dispositivi connetti "id" -will start the app and automaticaly connect to the device id you have specified
 <br>\
-*to disconnect just simply explode(close it, but saying explode is much better) the process
+* to disconnect just simply explode(close it, but saying explode is much better) the process
 <br>\
 for my specific scenario i had to be able to pair devices easily so i add this reg key to obligate windows to be always visible :
 <br>\
